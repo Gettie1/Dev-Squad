@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: antiquewhite;
+    color: #070404;
     line-height: 1.6;
 }
 
@@ -37,30 +37,60 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+nav ul li a:hover{
+    color: #00ff26;
+}
+
 
 section {
     padding: 2rem;
     text-align: center;
 }
-
-.group-photo {
+#home{
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#home p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#about{
+    background: #f4f4f4;
+}
+#about h2{
+    margin-bottom: 1rem;
+}
+#about p{
+    margin-bottom: 1rem;
+}
+#about .group-photo{
     width: 200px;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
-
-.team-member {
+ .team-member{
     margin: 1rem;
     display: inline-block;
     width: 200px;
 }
-
-.team-member img {
+ .team-member img{
     width: 100%;
-    border-radius: 50%;
-}
+    border-radius: 560%;
 
-.project-card {
+}
+#projects{
+    background: #a24d4d;
+}
+#projects .project-card{
     background: #fff;
     margin: 1rem auto;
     padding: 1rem;
@@ -68,8 +98,42 @@ section {
     max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.project-card a {
+#projects .project-card a{
     color: #007BFF;
     text-decoration: none;
 }
+#contact{
+    background: #f4f4f4;
+}
+ .contact-form{
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(17, 227, 45, 0.1);
+}
+    .contact-form input,
+    .contact-form textarea{
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+    .contact-form button{
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        background: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .contact-form button:hover{
+        background: #0056b3;
+    }
+
+
+
+
+
+
+

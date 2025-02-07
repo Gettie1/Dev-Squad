@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#team">Team</a></li>
+                <li><a href="#team">Team & Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
@@ -25,7 +25,7 @@
 
     <!-- Home Section -->
     <section id="home">
-        <img src="images/group-photo.jpg" alt="Dev-squad Team Photo" class="group-photo">
+       <!-- <img src="background-image .jpg" alt="">-->
         <h2>Welcome to Dev-squad</h2>
         <p>Building innovative solutions together.</p>
     </section>
@@ -33,7 +33,8 @@
     <!-- About Us Section -->
     <section id="about">
         <h2>About Dev-squad</h2>
-        <p>We are a passionate team of developers collaborating on cutting-edge web development projects. Our mission is to solve real-world problems through technology.</p>
+        <p>We are a passionate team of developers collaborating on cutting-edge web development projects.</p> 
+            <p>Our mission is to solve real-world problems through technology.</p>
     </section>
 
     <!-- Team Members Section -->
@@ -47,10 +48,10 @@
         </div>
 
         <div class="team-member">
-            <img src="images/member2.jpg" alt="Member 2">
+            <img src="gettie.jpg" alt="Member 2">
             <h3>Getrude Cheptoo</h3>
             <p>Backend Developer</p>
-            <a href="https://github.com/gettie1">GitHub</a> | <a href="https://linkedin.com/in/getrudechetoo">LinkedIn</a>
+            <a href="https://github.com/gettie1">GitHub</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a>
         </div>
         <div class="team-member">
             <img src="images/member2.jpg" alt="Member 3">
@@ -87,8 +88,21 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
+        <p>What are your thoughts 💭??.....Send us your feedback!! </p>
+        <form action="" method="post" class="contact-form">
+            <label for="Name">Your Name</label><br>
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <label for="Email">Your Email</label><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <label for="Message">Your Message</label><br>
+            <textarea name="message" placeholder="Your Message" cols="29" rows="14" required></textarea><br>
+            <button type="submit">Send</button>
+            <input type="reset" value="Clear">
+        
+        </form>
         <p>Email: <a href="mailto:devsquad@gmail.com">devsquad@example.com</a></p>
         <p>GitHub: <a href="https://github.com/dev-squad" target="_blank">github.com/dev-squad</a></p>
+
     </section>
 
     <script src="script.js"></script>
