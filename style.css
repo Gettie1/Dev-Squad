@@ -84,7 +84,8 @@ section {
 }
  .team-member img{
     width: 100%;
-    border-radius: 560%;
+    border-radius: 50%;
+    
 
 }
 #projects{
