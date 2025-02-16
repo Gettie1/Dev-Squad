@@ -68,6 +68,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     });
 });
-
+let hover =document.getElementById("#team")
+hover.addEventListener("mouseover",() =>{
+    hover.style.backgroundColor="red";
+});
+window.addEventListener("load", ()=> {
+    alert("The page loaded")
+    console.log("page loaded")
+  })
 
   
